@@ -1,0 +1,26 @@
+{
+  "name": "stock-advisor",
+  "version": "1.0.0",
+  "description": "aaa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it4pigs/stock-advisor.git"
+  },
+  "keywords": [
+    "yahoo",
+    "finance",
+    "stock",
+    "ai"
+  ],
+  "author": "it4pigs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/it4pigs/stock-advisor/issues"
+  },
+  "homepage": "https://github.com/it4pigs/stock-advisor#readme"
+}
