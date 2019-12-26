@@ -4,6 +4,7 @@ const fs1 = require("fs"), fs2 = require("fs");
 const https = require("https");
 const o = require("./tickers.json");
 
+const THR = 14; // rating treshold - try between 10 and 20
 var l = o.tickers.length, results = [];
 
 
@@ -23,7 +24,7 @@ function analyzeTicker(i)
           - (obj.quoteSummary.result[0].recommendationTrend.trend[0].sell - obj.quoteSummary.result[0].recommendationTrend.trend[1].sell) 
           - 2 * (obj.quoteSummary.result[0].recommendationTrend.trend[0].strongSell - obj.quoteSummary.result[0].recommendationTrend.trend[1].strongSell);
           
-          if (rating > 14)
+          if (rating > THR)
           {
             results.push({"ticker": o.tickers[i], "rating": rating});  // save only results with ratings that are high enough 
           }
