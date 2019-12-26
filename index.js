@@ -50,7 +50,7 @@ function analyzeTicker(i)
 
 function queryYahooFinance(i, callback)
 {
-    var request = https.request({ host: 'query1.finance.yahoo.com',  path: '/v10/finance/quoteSummary/'+o.tickers[i]+'?formatted=true&modules=recommendationTrend%2CsummaryDetail', method: 'GET' }, function(response) {
+    var request = https.request({ host: 'query1.finance.yahoo.com',  path: '/v10/finance/quoteSummary/'+o.tickers[i]+'?formatted=true&modules=recommendationTrend', method: 'GET' }, function(response) {
       var body = "";
       response.on("data", function(chunk) { body += chunk.toString("utf8"); });
       response.on("end", function() { callback(body); }); 
