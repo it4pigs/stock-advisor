@@ -1,7 +1,7 @@
 {
   "name": "stock-advisor",
   "version": "1.0.0",
-  "description": "aaa",
+  "description": "app for advising which stock to buy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,10 +12,9 @@
     "url": "git+https://github.com/it4pigs/stock-advisor.git"
   },
   "keywords": [
-    "yahoo",
-    "finance",
-    "stock",
-    "ai"
+    "yahoo-finance",
+    "stock-trading",
+    "recommendation-trends"
   ],
   "author": "it4pigs",
   "license": "ISC",
