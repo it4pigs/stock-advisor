@@ -23,7 +23,7 @@ function analyzeTicker(i)
           - (obj.quoteSummary.result[0].recommendationTrend.trend[0].sell - obj.quoteSummary.result[0].recommendationTrend.trend[1].sell) 
           - 2 * (obj.quoteSummary.result[0].recommendationTrend.trend[0].strongSell - obj.quoteSummary.result[0].recommendationTrend.trend[1].strongSell);
           
-          if (rating > 2)
+          if (rating > 10)
           {
             results.push({"ticker": o.tickers[i], "rating": rating});  // save only results with ratings that are high enough 
           }
