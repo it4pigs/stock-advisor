@@ -6,6 +6,8 @@ This App is using data from Recommendation Trends on Yahoo Finance.
 ```Node.js```
 
 ### Start
-```npm start
+```
+npm start
 or
-node index.js```
+node index.js
+```
