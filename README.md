@@ -1,5 +1,5 @@
 # stock-advisor
-is a Node.js app for advising which stock to buy.
+a Node.js app for advising which stock to buy.
 This App is using data from Recommendation Trends on Yahoo Finance. 
 
 ### Requirements
